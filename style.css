@@ -1,18 +1,67 @@
+body, p{
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper{
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+/* styles for header*/
+
+.main-header{
+  background-color: #3030c1;
+}
+
+.logo-img{
+  padding-top: 60px;
+  margin-bottom: 76px;
+}
+
+.promo{
+  display: flex;
+}
+
 .promo__title{
+  padding-top: 55px;
+  color: #fff;
   font: 800 45px/55px 'Gilroy', arial, helvetica, sans-serif;
+  margin: 0;
+  margin-bottom: 32px;
 }
 
 .promo__subtitle{
+  color: #ffcc33;
   font: 800 30px/37px 'Gilroy', arial, helvetica, sans-serif;
+  margin: 0;
+  margin-bottom: 10px;
 }
 
 .promo__description{
+  width: 470px;
+  color: #fff;
   font: 300 20px/23px 'Gilroy', arial, helvetica, sans-serif;
+  margin: 0;
+  margin-bottom: 33px;
 }
 
 .promo__button{
+  margin-left: 2px;
+  width: 216px;
+  height: 54px;
+  color: #3030c1;
+  background-color: #ffcc33;
   font: 900 20px/24px 'Montserrat', arial, helvetica, sans-serif;
+  padding: 12px;
+  border: none;
 }
+
+.promo__img{
+  margin-bottom: 189.5px;
+}
+
+/*styles for plans-section*/
 
 .plans-section__title{
   font: 800 40px/49px 'Gilroy', arial, helvetica, sans-serif;
