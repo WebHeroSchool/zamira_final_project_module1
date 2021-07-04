@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'Gilroy';
+    src:
+        url('fonts/Gilroy-ExtraBold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src:
+        url('fonts/Gilroy-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+}
+
+
+@font-face {
+    font-family: 'Gilroy';
+    src:
+        url('fonts/Gilroy-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src:
+        url('fonts/Gilroy-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Gilroy';
+    src:
+        url('fonts/Gilroy-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src:
+        url('fonts/Montserrat-ExtraBold.ttf') format('truetype'),
+        url('fonts/montserrat-extrabold-webfont.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}

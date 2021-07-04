@@ -1,0 +1,48 @@
+.promo__title{
+  font: 800 45px/55px 'Gilroy', arial, helvetica, sans-serif;
+}
+
+.promo__subtitle{
+  font: 800 30px/37px 'Gilroy', arial, helvetica, sans-serif;
+}
+
+.promo__description{
+  font: 300 20px/23px 'Gilroy', arial, helvetica, sans-serif;
+}
+
+.promo__button{
+  font: 900 20px/24px 'Montserrat', arial, helvetica, sans-serif;
+}
+
+.plans-section__title{
+  font: 800 40px/49px 'Gilroy', arial, helvetica, sans-serif;
+}
+
+.plans-cards__title{
+  font: 800 30px/37px 'Gilroy', arial, helvetica, sans-serif;
+}
+
+.plans-cards__description{
+  font: 800 20px/25px 'Gilroy', arial, helvetica, sans-serif;
+}
+
+.plans-text{
+  font: 300 30px/35px 'Gilroy', arial, helvetica, sans-serif;
+}
+
+.feedback__title{
+  font: 800 40px/49px 'Gilroy', arial, helvetica, sans-serif;
+}
+
+.feedback-form__name,
+.feedback-form__email{
+  font: 300 20px/23px 'Gilroy', arial, helvetica, sans-serif;
+}
+
+.feedback-form__button{
+  font: 900 20px/24px 'Montserrat', arial, helvetica, sans-serif;
+}
+
+.main-footer__text{
+  font: 400 15px/18px 'Roboto', arial, helvetica, sans-serif;
+}
