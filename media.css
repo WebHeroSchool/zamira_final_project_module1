@@ -213,7 +213,7 @@
     padding-right: 3px;
   }
 
-  .feedback { padding: 41px 0 44px; }
+  .feedback { padding: 41px 0 43px; }
 
   .feedback-form { width: 260px; }
 
@@ -238,13 +238,14 @@
   .feedback-form__button {
     font-size: 10px;
     line-height: 12px;
-    padding: 17px 90px 16px 89px;
+    padding: 17.3px 0 16px 0px;
+    margin-left: -1.1px;
   }
 
   .main-footer {
     font-size: 10px;
     line-height: 12px;
-    padding: 23px 30px 25px 30px;
+    padding: 23px 30px 26px 30px;
     letter-spacing: 0.1px;
     }
 }

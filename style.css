@@ -177,6 +177,7 @@ body, p{
 .main-footer{
   background-color: #00008b;
   color: #fff;
-  font: 400 12.8px/16px 'Roboto', arial, helvetica, sans-serif;
-  padding: 51px 130px;
+  font: 400 15px/18px 'Roboto', arial, helvetica, sans-serif;
+  padding: 51px 130px 54px;
+  letter-spacing: .2px;
 }
