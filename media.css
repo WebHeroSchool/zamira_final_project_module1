@@ -186,7 +186,7 @@
     margin-bottom: 14px;
   }
 
-  .plans-cards__item:nth-child(2) .plans-cards__img {margin-bottom: 15px; }
+  .plans-cards__item:nth-child(2) .plans-cards__img { margin-bottom: 15px; }
 
   .plans-cards__title {
     font-size: 20px;
@@ -194,7 +194,7 @@
     margin-bottom: 16px;
   }
 
-  .plans-cards__item:nth-child(2) .plans-cards__title {margin-bottom: 7px; }
+  .plans-cards__item:nth-child(2) .plans-cards__title { margin-bottom: 7px; }
 
   .plans-cards__description {
     width: 125px;

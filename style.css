@@ -1,4 +1,4 @@
-body, p  {
+body, p {
   margin: 0;
   padding: 0;
 }
@@ -105,7 +105,6 @@ body, p  {
   color: #3a3a3a;
   font: 800 20px/25px 'Gilroy', arial, helvetica, sans-serif;
   margin-bottom: 50px;
-  color: #3a3a3a;
 }
 
 .plans-text {
@@ -165,5 +164,5 @@ body, p  {
   color: #fff;
   font: 400 15px/18px 'Roboto', arial, helvetica, sans-serif;
   padding: 51px 130px 54px;
-  letter-spacing: .2px;
+  letter-spacing: 0.2px;
 }
