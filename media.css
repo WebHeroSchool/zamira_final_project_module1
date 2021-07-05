@@ -81,7 +81,7 @@
   .promo { flex-direction: column; }
 
   .promo__text,
-  .promo__description {width: 100%; }
+  .promo__description { width: 100%; }
 
   .promo__button { margin-bottom: 30px; }
 
@@ -118,11 +118,13 @@
 }
 
 @media (max-width: 660px) {
-  .wrapper, .plans-text { max-width: 480px; }
+  .wrapper,
+  .plans-text { max-width: 480px; }
 }
 
 @media (max-width: 519px) {
-  .wrapper,.plans-text { max-width: 400px; }
+  .wrapper,
+  .plans-text { max-width: 400px; }
 }
 
 @media (max-width: 420px) {
@@ -167,9 +169,8 @@
     font-size: 20px;
     line-height: 24px;
     padding-right: 2px;
+    margin-bottom: 31px;
   }
-
-  .plans-section__title { margin-bottom: 31px; }
 
   .plans-cards__item {
     width: 260px;
@@ -238,14 +239,14 @@
   .feedback-form__button {
     font-size: 10px;
     line-height: 12px;
-    padding: 17.3px 0 16px 0px;
+    padding: 17.3px 0 15.6px 0;
     margin-left: -1.1px;
   }
 
   .main-footer {
     font-size: 10px;
     line-height: 12px;
-    padding: 23px 30px 26px 30px;
+    padding: 25px 30px 26px 30px;
     letter-spacing: 0.1px;
-    }
+  }
 }
