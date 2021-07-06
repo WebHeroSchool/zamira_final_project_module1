@@ -1,29 +1,25 @@
-body, p{
+body, p {
   margin: 0;
   padding: 0;
 }
 
-.wrapper{
+.wrapper {
   max-width: 1180px;
   margin: 0 auto;
 }
 
 /* styles for header*/
 
-.main-header{
-  background-color: #3030c1;
-}
+.main-header { background-color: #3030c1; }
 
-.logo-img{
+.logo-img {
   padding-top: 60px;
   margin-bottom: 76px;
 }
 
-.promo{
-  display: flex;
-}
+.promo { display: flex; }
 
-.promo__title{
+.promo__title {
   padding-top: 55px;
   color: #fff;
   font: 800 45px/55px 'Gilroy', arial, helvetica, sans-serif;
@@ -31,25 +27,25 @@ body, p{
   margin-bottom: 32px;
 }
 
-.promo__subtitle{
+.promo__subtitle {
   color: #ffcc33;
   font: 800 30px/37px 'Gilroy', arial, helvetica, sans-serif;
   margin: 0;
   margin-bottom: 10px;
 }
 
-.promo__description{
+.promo__description {
   width: 470px;
   color: #fff;
   font: 300 20px/23px 'Gilroy', arial, helvetica, sans-serif;
   margin: 0;
-  margin-bottom: 33px;
+  margin-bottom: 32px;
 }
 
-.promo__button{
+.promo__button {
   margin-left: 2px;
   width: 216px;
-  height: 54px;
+  height: 53px;
   color: #3030c1;
   background-color: #ffcc33;
   font: 900 20px/24px 'Montserrat', arial, helvetica, sans-serif;
@@ -57,41 +53,116 @@ body, p{
   border: none;
 }
 
-.promo__img{
-  margin-bottom: 189.5px;
-}
+.promo__img { margin-bottom: 189.5px; }
 
 /*styles for plans-section*/
 
-.plans-section__title{
+.plans-section__title {
+  width: 400px;
+  text-align: center;
   font: 800 40px/49px 'Gilroy', arial, helvetica, sans-serif;
+  margin: 55px auto 30px auto;
+  color: #3a3a3a;
 }
 
-.plans-cards__title{
+.plans-cards {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+
+.plans-cards__item {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 380px;
+  padding: 47px 0 0;
+  text-align: center;
+  box-shadow: 7px 7px 30px rgba(0, 0, 0, 0.25);
+}
+
+.plans-cards__item:nth-child(2) { padding-top: 50px; }
+
+.plans-cards__img {
+  width: 115px;
+  margin-bottom: 26px;
+}
+
+.plans-cards__title {
+  margin: 0;
+  margin-bottom: 25px;
+  color: #3030c1;
   font: 800 30px/37px 'Gilroy', arial, helvetica, sans-serif;
 }
 
-.plans-cards__description{
+.plans-cards__item:nth-child(2) .plans-cards__title { margin-bottom: 11px; }
+
+.plans-cards__description {
+  width: 250px;
+  color: #3a3a3a;
   font: 800 20px/25px 'Gilroy', arial, helvetica, sans-serif;
+  margin-bottom: 50px;
 }
 
-.plans-text{
-  font: 300 30px/35px 'Gilroy', arial, helvetica, sans-serif;
+.plans-text {
+  width: 997px;
+  font: 300 30px/36px 'Gilroy', arial, helvetica, sans-serif;
+  padding-left: 100px;
+  text-align: center;
+  margin-bottom: 55px;
+  list-style: none;
+  color: #3a3a3a;
 }
 
-.feedback__title{
+/* styles for feedback section */
+
+.feedback {
+  background-color: #f0fbff;
+  padding: 71px 0 72px;
+}
+
+.feedback-form {
+  display: flex;
+  flex-direction: column;
+  width: 380px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.feedback__title {
+  margin: 0;
+  text-align: center;
   font: 800 40px/49px 'Gilroy', arial, helvetica, sans-serif;
+  margin-bottom: 50px;
+  color: #3a3a3a;
 }
 
 .feedback-form__name,
-.feedback-form__email{
+.feedback-form__email {
+  border: none;
+  padding: 29px 28px;
   font: 300 20px/23px 'Gilroy', arial, helvetica, sans-serif;
+  color: #878787;
 }
 
-.feedback-form__button{
+.feedback-form__name { margin-bottom: 30px; }
+
+.feedback-form__email { margin-bottom: 73px; }
+
+.feedback-form__button {
+  border: none;
   font: 900 20px/24px 'Montserrat', arial, helvetica, sans-serif;
+  background-color: #ffda45;
+  padding: 29px 109px 27.9px 110px;
 }
 
-.main-footer__text{
+.main-footer {
+  background-color: #00008b;
+  color: #fff;
   font: 400 15px/18px 'Roboto', arial, helvetica, sans-serif;
+  padding: 51px 130px 54px;
+  letter-spacing: 0.2px;
 }
